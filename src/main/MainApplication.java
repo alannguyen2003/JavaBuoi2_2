@@ -46,6 +46,25 @@ public class MainApplication {
          *  => 3, 7
          * DEADLINE: Thứ 3, 16/5/2023
          */
+        //tạo một đối tượng, như tên, tuổi, địa chỉ, ...
+        //OBJECT : đối tượng
+//        Student student = new Student("Tran Tuan Kiet", 20, "Vinhomes");
+//        System.out.println(student.age >= 20);
+        //Bài tập: Tạo một lớp đối tượng Student, có 6 thuộc tính:
+        /**
+         * 1. Name
+         * 2. Age
+         * 3. Address
+         * 4. Class
+         * 5. School
+         * 6. Hobby
+         * 1.1 In ra và kiểm tra xem, tên học sinh có phải là Tran Tuan Kiet
+         * 1.2 In ra và kiểm tra xem, học sinh có phải đang học lớp SE18xx (Class này có đầu chuỗi là SE18 và theo sau là 2 số nguyên)
+         * VD: SE1845, SE1859..., nếu như sai format, thì in ra lớp không tồn tại
+         * 1.3 In ra và kiểm tra trường của học sinh có phải FPT không
+         * 1.4 Kiểm tra và in ra true nếu address của student là HCM
+         * Bài sau sẽ học: Tính đóng gói và kế thừa trong OOP
+         */
     }
     
 }
