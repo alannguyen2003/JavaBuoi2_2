@@ -65,6 +65,32 @@ public class MainApplication {
          * 1.4 Kiểm tra và in ra true nếu address của student là HCM
          * Bài sau sẽ học: Tính đóng gói và kế thừa trong OOP
          */
+//        Student student = new Student("Tran Tuan Kiet", 20, "HCM", "FPTU", "SE1745", "hh");
+//        if (student.name.equals("Tran Tuan Kiet")) {
+//            System.out.println("Học sinh đúng!");
+//        } else {
+//            System.out.println("Sai tên học sinh!!");
+//        }
+//        //method (Phương thức): matches(pattern) : sẽ trả ra kết quả đúng nếu chuỗi này matches với pattern mà mình đã đề ra.
+//        if (student.className.matches("^SE18\\d{2}$")) {
+//            System.out.println("Lớp học đang hiện diện!");
+//        } else {
+//            System.out.println("Lớp học không có trên hệ thống!!");
+//        }
+        //pattern : một công thức để sinh ra một chuỗi
+        //SE18xx 
+        /**
+         * Regular Expression
+         * Công thức chung: 
+         *  + Mã đầu: F, SE, FD,....
+         *  + Mã cuối: bao gồm các số tự nhiên bất kì, có thể có bao nhiêu số cũng được
+         * VD: SE1845 (SE18xx), SE1842 (SE18xx),...
+         * Pattern mẫu: 
+         * ^F\\d{3}$ => Fxxx
+         * SE18xx => ^SE18\\d{2}$
+         * FERxxxx => ^FER\\d{4}$
+         */
+        
     }
     
 }

@@ -16,6 +16,9 @@ public class Student {
     String name;
     int age;
     String address;
+    String school;
+    String className; 
+    String hobby;
     
     //Constructor : (construct: khối cấu trúc) hàm khởi tạo, 
     //Constructor rỗng
@@ -29,6 +32,17 @@ public class Student {
         this.age = age;
         this.address = address;
     }
+
+    public Student(String name, int age, String address, String school, String className, String hobby) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+        this.school = school;
+        this.className = className;
+        this.hobby = hobby;
+    }
+    
+    
 
     @Override
     public String toString() {
